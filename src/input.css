@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply rounded-full py-3 px-7 bg-primary-Bright_Red font-medium text-sm text-white hover:bg-opacity-80 shadow-primary-Bright_Red/80 shadow-md;
+}
+
+.listStyle{
+    @apply rounded-full py-2 px-6 bg-primary-Bright_Red text-white mr-5;
+}
+
+.bgImg{
+    background-image:  url("img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 150% -7%;
+  }
+
+  .bgImg2{
+    background-image:  url("img/bg-simplify-section-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 15pc;
+    background-position-y: 75%;
+    background-position-x: 1%;
+  }
+
+  @media (max-width:720px) {
+      .bgImg {
+        background-position-y: -2%;
+        background-position-x: 15px;
+        background-size: 120%;
+      }
+
+      .bgImg2{
+        background-image:  url("img/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+        background-size: 20pc;
+        background-position-y: 25%;
+        background-position-x: 420%;
+      }
+    
+ 
+  }
