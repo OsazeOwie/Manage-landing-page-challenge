@@ -709,6 +709,18 @@ video {
   width: 1.25rem;
 }
 
+.w-3{
+  width: 0.75rem;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-24{
+  width: 6rem;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -725,8 +737,36 @@ video {
   flex-wrap: nowrap;
 }
 
+.place-items-start{
+  place-items: start;
+}
+
+.place-items-end{
+  place-items: end;
+}
+
+.place-items-center{
+  place-items: center;
+}
+
+.place-items-stretch{
+  place-items: stretch;
+}
+
+.items-start{
+  align-items: flex-start;
+}
+
+.items-end{
+  align-items: flex-end;
+}
+
 .items-center{
   align-items: center;
+}
+
+.items-stretch{
+  align-items: stretch;
 }
 
 .justify-center{
