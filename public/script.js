@@ -6,6 +6,9 @@ const showNav = () => {
    const menu = document.getElementById("menu");
    menu.classList.toggle("hidden");
    burger.src = "img/icon-close.svg";
+   if(menu.classList.contains("hidden")){
+       burger.src = "img/icon-hamburger.svg";
+   }
 };
 
 let slideIndex = 0;
